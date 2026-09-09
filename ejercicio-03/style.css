@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero p {
+  max-width: 500px;
+  margin: 10px auto 20px;
+}
+
+.cta-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0D6EFD;
+  color: #FFFFFF;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cta-button:hover {
+  background-color: #0B5ED7;
+}
+
+.features {
+  padding: 40px 20px;
+}
+
+.features h2 {
+  text-align: center;
+}
+
+.features-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  flex: 1 1 280px;
+  padding: 20px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #DEE2E6;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #6C757D;
+}
+
+h3 {
+  margin-top: 0;
+  text-align: center;
+}
