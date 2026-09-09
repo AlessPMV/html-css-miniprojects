@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+ul li {
+  padding: 4px;
+}
+
+ul li:hover {
+  background-color: #E9ECEF;
+  transition: 0.2s;
+}
+
+ol li {
+  margin-bottom: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #464343;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #d8d8d8;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
